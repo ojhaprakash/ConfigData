@@ -1,4 +1,5 @@
 ---
+# this applies to all profiles
 eureka:
   client:
     service-url:
@@ -28,3 +29,8 @@ words: reasonable,leaky,suspicious,ordinary,unlikely
 spring:
   profiles: noun
 words: boat,book,vote,seat,backpack,partition,groundhob
+
+---
+spring:
+  profiles: cold-noun
+words: icicle,refrigerator,blizzard,snowball
